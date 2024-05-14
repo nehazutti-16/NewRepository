@@ -11,6 +11,7 @@ public class ProductsPage {
 	@FindBy(name = "search")
 	private WebElement ele2;
 
+	//getters 
 	public WebElement getNewProductBtn() {
 		return newProductBtn;
 	}
