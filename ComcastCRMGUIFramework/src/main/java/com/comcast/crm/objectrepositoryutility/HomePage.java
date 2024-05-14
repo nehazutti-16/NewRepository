@@ -26,6 +26,13 @@ public class HomePage {
 
 	@FindAll({ @FindBy(xpath = "//a[.='Sign Out']"), @FindBy(className = "drop_down_usersettings") })
 	private WebElement signOutbtn;
+	
+	@FindBy(linkText = "Products")
+	private WebElement productLink;
+
+	public WebElement getProductLink() {
+		return productLink;
+	}
 
 	public WebDriver getDriver() {
 		return driver;
