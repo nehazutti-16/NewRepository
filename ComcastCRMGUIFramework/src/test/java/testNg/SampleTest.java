@@ -3,7 +3,6 @@ package testNg;
 import org.testng.annotations.Test;
 
 public class SampleTest {
- //welcome
 	@Test(dependsOnMethods = "test2", priority=0)
 	public void test1()
 	{
