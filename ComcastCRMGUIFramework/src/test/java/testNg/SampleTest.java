@@ -3,16 +3,14 @@ package testNg;
 import org.testng.annotations.Test;
 
 public class SampleTest {
-	//welcome
-	@Test(dependsOnMethods = "test2", priority=0)
-	public void test1()
-	{
+	// welcome
+	@Test(dependsOnMethods = "test2", priority = 0)
+	public void test1() {
 		System.out.println("t1");
 	}
-	
-	@Test(priority= -1)
-	public void test2()
-	{
+
+	@Test(priority = -1)
+	public void test2() {
 		System.out.println("t2");
 	}
 }
