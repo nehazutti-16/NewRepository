@@ -30,6 +30,8 @@ public class HomePage {
 	@FindBy(linkText = "Products")
 	private WebElement productLink;
 
+	//product link added
+	
 	public WebElement getProductLink() {
 		return productLink;
 	}
