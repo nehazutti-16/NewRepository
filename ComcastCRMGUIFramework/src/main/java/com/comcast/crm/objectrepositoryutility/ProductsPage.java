@@ -15,6 +15,8 @@ public class ProductsPage {
 		return newProductBtn;
 	}
 
+	//getters 
+	
 	public WebElement getEle2() {
 		return ele2;
 	}
